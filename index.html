@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <section class="array1">
+            <h2>Reserver votre place pour le prochain cours de yoga du rire!</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Yoga du rire avec Jacqueline (Paris)</th>
+                        
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>03 janvier 2016</td>
+                        <td class="colonne2-3">15h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                    <tr>
+                        <td >30 janvier 2016</td>
+                        <td class="colonne2-3">17h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                    <tr>
+                        <td >03 fevrier 2016</td>
+                        <td class="colonne2-3">15h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                    <tr>
+                        <td >03 fevrier 2016</td>
+                        <td class="colonne2-3">15h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="array2">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Yoga du rire avec Roger (Marseille)</th>
+                        
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>03 janvier 2016</td>
+                        <td class="colonne2-3">15h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                    <tr>
+                        <td >30 janvier 2016</td>
+                        <td class="colonne2-3">17h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                    <tr>
+                        <td >03 fevrier 2016</td>
+                        <td class="colonne2-3">15h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                    <tr>
+                        <td >03 fevrier 2016</td>
+                        <td class="colonne2-3">15h30</td>
+                        <td class="colonne2-3">Reserver ce creneau</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="formulaire">
+            <p>Pour valider votre reservation, completer ce formulaire:</p>
+    
+
+                <form method="post" action="traitement.php">
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
+
+                        <label for="name">votre prenom:</label>
+                        <input type="text" name="name"  id="name">
+
+                        <label for="name">votre nom:</label>
+                        <input type="text" name="name"  id="name">
+
+                        <label for="mail">votre mail:</label>
+                        <input type="email" name="mail"  id="mail">
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Quelles sont les raisons de votre venu</legend>
+                        
+                        <label for="detendre">besoin de me detendre</label>
+                        <input type="checkbox" name="detendre"  id="detendre">
+                        
+
+                        <label for="conseil">Mon medecin m'a conseiller de venir</label>
+                        <input type="checkbox" name="conseil"  id="conseil">
+
+                        <label for="test">Je veux tester avec des amis</label>
+                        <input type="checkbox" name="test"  id="test">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Voulez-vous souscrire à notre programme de fidélité?</legend>
+                        
+                        <label for="fidelite">Oui</label>
+                        <input type="radio" name="programme-fidelite" value="fidelite"  id="fidelite">
+                        
+                        <label for="fidelite">Non</label>
+                        <input type="radio" name="programme-fidelite" value="fidelite"  id="fidelite">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Comment avez-vous connu Ila Yoga?</legend>
+                        
+                       <select name="ila-yoga" id="ila-yoga">
+                            <option value="internet">internet</option>
+                            <option value="amis">via une connaissance</option>
+                            <option value="reseau">Les reseaux sociaux</option>
+                            <option value="school">a l'ecole</option>
+                            
+                       </select>
+                    </fieldset>
+                </form>
+        
+
+        </section>
+        <input class="bouton-envoi" type="submit" value="Envoyer">
+
+    </main>
+
+    <footer>
+        <div>
+            <img class="logo-3wa" src="./img/3WACADEMY.jpg" alt="logo 3w academy">
+            <p>Cet exercice de <a href="https://3wa.fr/">3W Academy</a> est mis à disposition 
+                <a href="#">pour l'usage personnel des étudiants.</a><a href="#"> Pas de 
+                    redifusion</a> - <a href="#">Attribution</a> - <a href="#">Pas d'utilisation
+                         commerciale</a> - <a href="#">Pas de modification</a> - <a href="#">Internation</a>.</p>
+            <p>Les autorisation au-delà du champ de cette licence peuvent 
+                obtenu auprès de <a href="mailto:Contact@3wa.fr">Contact@3wa.fr</a>. 
+                Les maquettes ont été par <a href="#">Justin Muller</a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>
